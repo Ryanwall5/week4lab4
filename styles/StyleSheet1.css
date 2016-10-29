@@ -1,0 +1,76 @@
+﻿body
+{
+    background-color: grey;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', 'Arial', 'sans-serif';
+     color: chartreuse;
+}
+table{
+    border-collapse: collapse;
+
+}
+th{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+tr, td{
+    font-size: 14px;
+     border: 2px solid black;
+     text-align: left;
+     padding: 5px;
+}
+tr:nth-child(odd) {
+    background-color: powderblue;
+    color: red;
+    
+}
+tr:nth-child(even) {
+    background-color: yellow;
+    color: red;
+}
+
+ h2{
+    color: blue;
+    background-color: aqua;
+    height: 40px;
+    padding-top: 5px;
+}
+ nav {
+     background-color: white;
+     color:gold;
+     height: 100px;
+     padding-top: 10px;
+     text-decoration-line:none;
+
+ }
+ #topnav a{
+     color:black;
+     padding: 8px;
+     text-decoration-line:none;
+     font-size: 16px;
+     background-color: deeppink;
+ }
+ #topnav a:hover {
+    background: black;
+    color: white;
+}
+ .parasection{
+    color:sandybrown;
+    font-style: italic;
+
+ }
+ div.register{
+
+     padding-top: 10px;
+     padding-bottom: 5px;
+     font-style: italic;
+     font-weight: bold;
+
+ }
+ h1{
+
+     font-weight: bold;
+     color: chartreuse;
+
+ }

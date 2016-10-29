@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    
+    <title>Registration</title>
+    <link rel="stylesheet" type="text/css" href="styles/StyleSheet1.css" />
+   
+    <script type="text/javascript" src="Scripts/Script1.js"></script>
+</head>
+<body>
+    <header>
+        <nav id="topnav">
+            <div class="topnav_info">
+                <a href="lab4_HTML_page1.html">HomePage</a>
+                <a href="Registration.html">Registration</a>
+                <a href="Help.html">Help</a>
+
+            </div>
+        </nav>
+    </header>
+
+    <h2 style="color:black; background-color: white; "> Register </h2>
+
+    <form name="reg" method="Post" action="javascript:getregister()">
+        <div class="register">
+            <label for="">First Name: </label>
+            <input id="value1" type="text" name="FirstName" maxlength="10" value="" />
+        </div>
+
+        <div class="register">
+            <label for="">Last Name: </label>
+            <input id="value2" type="text" name="LastName" maxlength ="15" value="" />
+        </div>
+
+        <div class="register">
+            <label for="">Age: </label>
+            <input id="value3" type="text" name="Age" value="" />
+        </div>
+        
+        <div class="register">
+            <label for="">Year In School: </label> <br />
+            <input type="radio" name="year" id="y1" value="Freshman" checked="checked" /> Freshman <br />
+            <input type="radio" name="year" id="y2" value="Sophmore" />Sophmore <br />
+            <input type="radio" name="year" id="y3" value="Junior" />Junior <br />
+            <input type="radio" name="year" id="y4" value="Senior" />Senior <br />
+            <input type="radio" name="year" id="y5" value="Super Senior" />Super Senior <br />
+        </div>
+   
+        <div class="register">
+        <button  style="color:red; background-color:aqua;" type="submit">register</button>
+        </div>
+    </form>
+
+    First Name: <span id="first"> </span><br />
+    Last Name: <span id="last"> </span><br />
+    Age: <span id="age"> </span><br />
+    Year In School: <span id="school"></span><br />
+
+
+
+    <section class="parasection">
+        <div>
+            <h2 style="color:orange;"> Paragraph one </h2>
+            <p>
+                this is paragraph one
+
+            </p>
+        </div>
+
+
+        <div>
+            <h2 style="color:green;"> Paragraph two </h2>
+            <p>
+                this is paragraph two
+
+
+            </p>
+        </div>
+
+        <div>
+            <h2 style="color:red; ">Paragraph three</h2>
+            <p>
+                this is paragraph three
+
+
+            </p>
+        </div>
+    </section>
+    <footer>
+        &copy;Ryans Webpage 2016
+    </footer>
+
+</body>
+</html>
